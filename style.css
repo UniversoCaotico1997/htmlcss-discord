@@ -39,6 +39,12 @@ h1{
 }
 
 /* button */
+.col_1 button{
+    padding: 5px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid white;
+}
 button{
     padding: 5px;
     border-radius: 25px;
@@ -89,14 +95,21 @@ button{
     text-decoration: none;
 }
 
-.col_1 button{
-    padding: 5px;
-    border-radius: 25px;
-    background-color: white;
-    border: 1px solid white;
+/* suddivisione */
+
+img{
+    max-width: 100%;
+}
+ h2{
+    padding: 1.5rem 0;
+ }
+.size{
+    font-size: small;
 }
 
-/* suddivisione */
+
+
+
 
 #customer{
     background-color: grey;
