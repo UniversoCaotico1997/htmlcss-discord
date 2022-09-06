@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.container{
+    max-width: 700px;
+    margin: auto;
+    width: 80%;
+    padding-top:  10px; 
+}
+
+.row{
+    display: flex;
+}   
+
+header{
+    background-color:#255EE9;
+    height: 40px;
+}
+
+/* colonne header */
+.col_1{
+    width: calc((100% / 12)* 2);  
+}
+.col_2{
+    width: calc((100% / 12)* 8);
+    
+}
+.colon_3{
+    width: calc((100% / 12)* 2);  
+}
+
+.colo_4{
+    width: calc((100% / 12)* 7);
+    height: 150px;
+    background-color: aqua;
+}
+.colo_5{
+    width: calc((100% / 12)* 5);
+    background-color: pink;
+}
+.colon_6{
+    width: calc((100% / 12)* 4);
+}
+
+
+
+/* debug */
+ [class^="col_2"]{
+    text-align: center;
+    text-decoration: none;
+}
+
+.col_1 button{
+    padding: 5px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid white;
+}
+#jumbo{
+    background-image: url(./img/jumbo.png);
+    background-size: contain;
+}
+
+/* suddivisione */
+
+.sfondo{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 600px;
+    height: 150px;
+    background-color:violet; 
+}
+
+#customer{
+    background-color: grey;
+}
+ 
+
+.painting{
+    background-color: brown;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    width: 400px;
+    height: 300px;
+    background-color:green;
+    border-style: dotted; 
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    height: 400px;
+}
+
+
+[class^="colon_"]{
+    background-color:lightskyblue;
+    height: 250px;
+    border-style: dotted;
+}
+.row > .colon_6{
+    background-color: pink;
+}
+
+span{
+    color:white;
+}
