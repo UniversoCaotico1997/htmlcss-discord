@@ -3,20 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 } 
+header{
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+}
+
 .container{
     max-width: 700px;
     margin: auto;
     width: 80%;
-    padding-top:  10px; 
+    padding: 5px;
 }
 
 .row{
     display: flex;
 }   
 
-header{
-    background-color:#255EE9;
-    height: 40px;
+.container_small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    width: 600px;
+    height: 300px;
+    background-color:violet; 
+    color: white;
+    text-align: center;
 }
 
 /* colonne header */
@@ -58,24 +72,8 @@ header{
     background-color: white;
     border: 1px solid white;
 }
-#jumbo{
-    background-image: url(./img/jumbo.png);
-    background-size: contain;
-}
 
 /* suddivisione */
-
-.sfondo{
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.box{
-    width: 600px;
-    height: 150px;
-    background-color:violet; 
-}
 
 #customer{
     background-color: grey;
