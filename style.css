@@ -76,12 +76,11 @@ button{
 
 .colo_4{
     width: calc((100% / 12)* 7);
-    height: 150px;
-    background-color: aqua;
+    
 }
 .colo_5{
     width: calc((100% / 12)* 5);
-    background-color: pink;
+   
 }
 .colon_6{
     width: calc((100% / 12)* 4);
@@ -106,15 +105,15 @@ img{
 .size{
     font-size: small;
 }
-
-
-
-
-
 #customer{
     background-color: grey;
 }
  
+.row_main{
+    display: flex;
+    height: 300px;
+}
+
 
 .painting{
     background-color: brown;
