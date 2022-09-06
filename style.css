@@ -37,6 +37,11 @@ h1{
     font-size: xx-large;
     padding: 2rem 0;    
 }
+.col_2{
+    text-align: center;
+    color: white;
+ }
+
 
 /* button */
 .col_1 button{
@@ -90,16 +95,6 @@ button{
     width: calc((100% / 12)* 4);
 }
 
-
-
-/* debug */
- .col_2{
-    text-align: center;
-    
-    color: white;
- }
-    
-
 /* suddivisione */
 
 img{
@@ -145,7 +140,6 @@ footer{
 }
 #language{
     width: 20px;
-   
 }
 .symbol{
     color: white;
@@ -157,4 +151,7 @@ footer{
 .flex_space{
     display: flex;
     justify-content: space-around;
+}
+.white{
+    color: white;
 }
