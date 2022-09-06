@@ -60,7 +60,10 @@ button{
     border: 1px solid black;
     color: white;
 }
-
+#download{
+    background-color: #7289DA;
+    border: 1px solid white;
+}
 
 /* colonne header */
 .col_1{
@@ -105,28 +108,23 @@ img{
 .size{
     font-size: small;
 }
-#customer{
-    background-color: grey;
-}
- 
-.row_main{
+ .row_main{
     display: flex;
     height: 300px;
 }
-
-
-.painting{
-    background-color: brown;
-    height: 400px;
+#customer{
+    background-color: #D9D9D9;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.container_big{
+    height: 600px;
 }
 .square{
-    width: 400px;
-    height: 300px;
-    background-color:green;
-    border-style: dotted; 
+    width: 600px;
+    height: 300px;    
 }
 
 /* footer */
