@@ -26,7 +26,6 @@ header{
 
 }
 .box{
-    width: 600px;
     height: 300px;
     color: white;
     text-align: center;
@@ -48,7 +47,7 @@ h1{
     padding: 5px;
     border-radius: 25px;
     background-color: white;
-    border: 1px solid white;
+    border: 1px solid white; 
 }
 button{
     padding: 5px;
@@ -111,7 +110,6 @@ img{
 }
  .row_main{
     display: flex;
-    height: 300px;
 }
 #customer{
     background-color: #D9D9D9;
@@ -120,19 +118,11 @@ img{
     align-items: center;
     text-align: center;
 }
-.container_big{
-    height: 600px;
-}
-.square{
-    width: 600px;
-    height: 300px;    
-}
 
 /* footer */
 
 footer{
     background-color: black;
-    height: 400px;
 }
 .colon_6>h3{
     color: #2C4072;
