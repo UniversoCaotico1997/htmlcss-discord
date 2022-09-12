@@ -26,7 +26,6 @@ header{
 
 }
 .box{
-    height: 300px;
     color: white;
     text-align: center;
 }
@@ -64,7 +63,7 @@ button{
     border: 1px solid black;
     color: white;
 }
-#download{
+.download{
     background-color: #7289DA;
     border: 1px solid ;
     color: white;
